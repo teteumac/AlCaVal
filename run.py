@@ -1,5 +1,8 @@
 from application import create_app
 from core_lib.utils.global_config import Config
+import time
+
+time.sleep(190009)
 
 app = create_app()
 if __name__ == '__main__':
